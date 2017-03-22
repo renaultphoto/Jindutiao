@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<link type="text/css" href="css/step.css" rel="stylesheet">
+<title>Step - iForms UI</title>
+<script type="text/javascript">
+$(document).ready(function(){
+ $(" li").hover(function() {
+  $(this).find("em").animate({opacity: "show", top: "-75"}, "slow");
+ }, function() {
+  $(this).find("em").animate({opacity: "hide", top: "-85"}, "fast");
+ });
+});
+</script>
+</head>
+
+<body>
+
+	<div style="width:70%; margin:50px auto">
+	
+		
+		<h5>红色风格：</h5>
+		<ol class="ui-step ui-step-red ui-step-5">
+			<li class="step-start step-done">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">1</span>
+					<span class="ui-step-cont-text">问题申报</span>
+				</div>
+			</li>
+			<li class="step-start step-done">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">2</span>
+					<span class="ui-step-cont-text">审核填写信息</span>
+				</div>
+			</li>
+			<li class="step-start step-done">
+			<div class="ui-step-line"></div>
+				<a href="##">
+					<div class="ui-step-cont">
+						<span class="ui-step-cont-number">3</span>
+						<em>反馈信息</em>
+						<span class="ui-step-cont-text">填写建议</span>
+					</div>
+				</a>
+				
+			</li>
+			<li class="step-active">
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">4</span>
+					<span class="ui-step-cont-text">申报完成</span>
+				</div>
+			</li>
+		</ol>
+		
+		<p>&nbsp;</p>
+		
+		<h5>蓝色风格：</h5>
+		<ol class="ui-step ui-step-blue ui-step-6">
+			<li class="step-start step-done">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">1</span>
+					<span class="ui-step-cont-text">填写资料</span>
+				</div>
+			</li>
+			<li class="step-start step-done">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">2</span>
+					<span class="ui-step-cont-text">审核填写信息</span>
+				</div>
+			</li>
+			<li class="step-active">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">3</span>
+					<span class="ui-step-cont-text">完成注册</span>
+				</div>
+			</li>
+			<li class="step-undone">
+			<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">4</span>
+					<span class="ui-step-cont-text">退出</span>
+				</div>
+			</li>
+		</ol>
+<p>&nbsp;</p>
+
+		<h5>默认风格：</h5>
+		<ol class="ui-step ui-step-3">
+			<li class="step-start step-done">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">1</span>
+					<span class="ui-step-cont-text">填写资料</span>
+				</div>
+			</li>
+			<li class="step-active">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">2</span>
+					<span class="ui-step-cont-text">审核填写信息</span>
+				</div>
+			</li>
+			<li class="step-end">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">3</span>
+					<span class="ui-step-cont-text">完成注册</span>
+				</div>
+			</li>
+			
+		</ol>
+		
+		<p>&nbsp;</p>
+		
+		<h5>黄色风格：</h5>
+		<ol class="ui-step ui-step-yellow ui-step-3">
+			<li class="step-start step-done">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">1</span>
+					<span class="ui-step-cont-text">填写资料</span>
+				</div>
+			</li>
+			<li class="step-active">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">2</span>
+					<span class="ui-step-cont-text">审核填写信息</span>
+				</div>
+			</li>
+			<li class="step-end">
+				<div class="ui-step-line"></div>
+				<div class="ui-step-cont">
+					<span class="ui-step-cont-number">3</span>
+					<span class="ui-step-cont-text">完成注册</span>
+				</div>
+			</li>
+		</ol>
+		
+		<p>&nbsp;</p>
+	</div>	
+					
+</body>
+</html>
